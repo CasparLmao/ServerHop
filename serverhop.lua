@@ -23,7 +23,7 @@ if game.PlaceId == 6403373529 then
             end
             syn.queue_on_teleport([[
                 getgenv().ServerHop = true 
-                loadstring(game:HttpGet(""))()
+                loadstring(game:HttpGet("https://raw.githubusercontent.com/CasparLmao/ServerHop/main/serverhop.lua"))()
             ]])
             repeat wait()
                 teleport()
